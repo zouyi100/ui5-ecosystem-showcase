@@ -11,9 +11,6 @@ framework:
     - name: sap.ui.unified
     - name: themelib_sap_horizon
 builder:
-  settings:
-    includeDependency:
-      - ui5.ecosystem.demo.tslib
   componentPreload:
     excludes:
       - "ui5/ecosystem/demo/tsapp/thirdparty/@stomp/**"

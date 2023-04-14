@@ -28,7 +28,6 @@
     "@stomp/stompjs": "^7.0.0",
     "jspdf": "^2.5.1",
     "luxon": "^3.3.0",
-    "ui5-tslib": "^0.3.7",
     "xlsx": "^0.18.5"
   },
   "devDependencies": {
@@ -51,7 +50,6 @@
   },
   "ui5": {
     "dependencies": [
-      "ui5-tslib",
       "ui5-middleware-livereload",
       "ui5-tooling-modules",
       "ui5-tooling-transpile"

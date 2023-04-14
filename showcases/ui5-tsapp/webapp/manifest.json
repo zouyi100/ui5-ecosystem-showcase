@@ -39,8 +39,7 @@
         "sap.ui.core": {},
         "sap.ui.layout": {},
         "sap.ui.unified": {},
-        "sap.m": {},
-        "ui5.ecosystem.demo.tslib": {}
+        "sap.m": {}
       }
     },
 

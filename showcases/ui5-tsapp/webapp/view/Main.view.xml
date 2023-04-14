@@ -1,4 +1,4 @@
-<mvc:View controllerName="ui5.ecosystem.demo.tsapp.controller.Main" displayBlock="true" xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:lib="ui5.ecosystem.demo.tslib">
+<mvc:View controllerName="ui5.ecosystem.demo.tsapp.controller.Main" displayBlock="true" xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" >
   <Page id="page" title="{i18n>appTitle}">
     <headerContent>
       <Text text="TypeScript-based UI5 Application" />
@@ -10,7 +10,6 @@
         <Button text="Download XLSX" press="downloadXLSX" />
         <Button text="Download PDF" press="downloadPDF" />
         <Button text="Create Mail" press="createMail" />
-        <lib:Example text="Hello World" />
       </VBox>
     </content>
   </Page>

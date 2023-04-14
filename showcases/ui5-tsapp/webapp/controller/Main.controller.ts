@@ -2,7 +2,6 @@
 import Controller from "sap/ui/core/mvc/Controller";
 import MessageBox from "sap/m/MessageBox";
 import { utils, write } from "xlsx";
-import capitalize from "ui5/ecosystem/demo/tslib/util/capitalize";
 
 // dynamic import of a provided library
 import("luxon")
@@ -28,8 +27,8 @@ import("@stomp/stompjs")
 export default class Main extends Controller {
 	public sayHello(): void {
 		// using regular imports
-		const text: string = capitalize("ui5");
-		MessageBox.show(`Hello World, ${text}!`);
+		// const text: string = capitalize("ui5");
+		// MessageBox.show(`Hello World, ${text}!`);
 	}
 
 	public async sayHelloAsync(): Promise<void> {
